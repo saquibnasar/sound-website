@@ -1,0 +1,39 @@
+.Join {
+  margin-top: 150px;
+  .header {
+    margin: 190px 192px 300px 0px;
+    h1 {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 56px;
+      line-height: 100%;
+      span {
+        color: #ef5da8;
+      }
+    }
+  }
+  .background {
+    background: #202027;
+    border-radius: 20px;
+    // width: 514px;
+    height: 480px;
+    form {
+      padding: 68px 45px;
+      .form-label {
+        margin-bottom: 18px;
+      }
+      .form-control {
+        border: 2px solid #1762a7;
+        box-sizing: border-box;
+        border-radius: 10px;
+        background-color: unset;
+      }
+      .primary-btn {
+        margin-top: 25px;
+        width: 477px;
+        height: 46px;
+      }
+    }
+  }
+}

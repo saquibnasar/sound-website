@@ -1,0 +1,50 @@
+html {
+  scroll-behavior: smooth;
+}
+ul,
+li {
+  text-decoration: none;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #fff !important;
+}
+body {
+  background: #2f303a;
+}
+h1 {
+  color: #fff;
+}
+p {
+  color: #fff;
+}
+.main-btn {
+  outline: unset;
+  width: 200px;
+  height: 53px;
+  background-color: #1762a7;
+  border-radius: 10px;
+  color: #fff;
+  border: unset;
+}
+.main-btn:hover {
+  background-color: #1762a7;
+  outline: unset;
+}
+:active,
+:hover,
+:focus {
+  outline: 0 !important;
+  outline-offset: 0;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+a:hover {
+  color: #ef5da8 !important;
+}
+.form-label {
+  color: #fff;
+}

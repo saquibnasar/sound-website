@@ -1,0 +1,51 @@
+.home {
+  margin-top: 9.5%;
+  &-heading {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 100%;
+    z-index: 111;
+  }
+  &-para {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 29.5px;
+    line-height: 100%;
+    z-index: 111;
+  }
+  .home-detials {
+    margin-top: 100px;
+    z-index: 111;
+  }
+  .ellipse-1 {
+    position: absolute;
+    width: 238px;
+    height: 238px;
+    left: 9px;
+    top: 380px;
+    z-index: -1;
+  }
+  .ellipse-2 {
+    position: absolute;
+    width: 150px;
+    height: 127px;
+    left: 644px;
+    top: 98px;
+  }
+  .ellipse-3 {
+    position: absolute;
+    width: 336px;
+    height: 264px;
+    left: 1013px;
+    top: 402px;
+  }
+  .home-img {
+    z-index: 111000;
+    img {
+      z-index: 11100;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.footer {
+  background-color: #202027;
+  padding: 25px 0px;
+  .footer-logo {
+    a {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 100%;
+      margin-right: 12px;
+      /* or 24px */
+
+      color: #ffffff;
+    }
+  }
+  .footer-social {
+    margin-left: 55%;
+    a {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 100%;
+      i {
+        font-size: 1.5rem;
+        color: #fff;
+        padding: 0 1rem;
+      }
+    }
+  }
+}
