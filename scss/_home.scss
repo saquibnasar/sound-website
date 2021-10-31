@@ -1,5 +1,5 @@
 .home {
-  margin-top: 9.5%;
+  margin-top: 2.5%;
   &-heading {
     font-family: Poppins;
     font-style: normal;
@@ -34,6 +34,7 @@
     height: 127px;
     left: 644px;
     top: 98px;
+    z-index: -1;
   }
   .ellipse-3 {
     position: absolute;
@@ -41,6 +42,7 @@
     height: 264px;
     left: 1013px;
     top: 402px;
+    z-index: -1;
   }
   .home-img {
     z-index: 111000;

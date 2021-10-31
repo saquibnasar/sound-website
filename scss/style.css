@@ -14,7 +14,8 @@ a {
 }
 
 body {
-  background: #2f303a;
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#000102), color-stop(#02090f), color-stop(#031018), color-stop(#04151f), to(#031927));
+  background-image: linear-gradient(to right top, #000102, #02090f, #031018, #04151f, #031927);
 }
 
 h1 {
@@ -60,12 +61,44 @@ a:hover {
   color: #fff;
 }
 
+.ctn {
+  margin: 70px 50px 82px 50px;
+  background: #2f303a;
+  height: 80vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  border-radius: 15px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 5px grey;
+          box-shadow: inset 0 0 5px grey;
+  border-radius: 0px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: red;
+  border-radius: 0px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000;
+}
+
 .navbar {
   margin-top: 42px;
 }
 
 .home {
-  margin-top: 9.5%;
+  margin-top: 2.5%;
 }
 
 .home-heading {
@@ -106,6 +139,7 @@ a:hover {
   height: 127px;
   left: 644px;
   top: 98px;
+  z-index: -1;
 }
 
 .home .ellipse-3 {
@@ -114,6 +148,7 @@ a:hover {
   height: 264px;
   left: 1013px;
   top: 402px;
+  z-index: -1;
 }
 
 .home .home-img {
